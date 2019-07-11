@@ -60,7 +60,28 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 75px;
 }
 
 /* Your code starts here! */
+
+.navbar{
+	margin:2%;
+	margin-bottom: 100px;
+
+}
+
+.logo{
+	margin-left: 900px;
+}
+
+.logo2{
+	margin-right: 300px;
+}
+
+
+.button{
+	font-size:25px;
+	font-family: 'Titillium Web', sans-serif;
+}
