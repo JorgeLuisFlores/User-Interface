@@ -49,12 +49,14 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+	color:black;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,18 +68,37 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navbar{
-	margin:2%;
-	margin-bottom: 100px;
+nav{
+margin-bottom: 150px;
 
+}
+
+a{
+	display: inline-block;
+	margin-left: 60px;
+	padding-right: 5%;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 25px;
 }
 
 .logo{
-	margin-left: 900px;
+	width: 185px;
+	height: 80px;
+	vertical-align: center;
+	align-content: right;
+	display: inline-block;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+
 }
 
 .logo2{
-	margin-right: 300px;
+	display: inline-block;
+}
+
+.headerpic{
+	display: inline-block;
 }
 
 
