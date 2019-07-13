@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -51,58 +138,153 @@ table {
 * {
 	box-sizing: border-box;
 	text-decoration: none;
-	color:black;
+	color: black;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+	height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
 	margin-bottom: 15px;
 	font-size: 75px;
 }
 
 /* Your code starts here! */
+h6 {
+	font-family: 'Bangers', cursive;
+	margin-bottom: 15px;
+	font-size: 17.5px;
+}
 
-nav{
-margin-bottom: 150px;
+nav {
+	margin-bottom: 150px;
 
 }
 
-a{
+a {
 	display: inline-block;
-	margin-left: 60px;
-	padding-right: 5%;
+	margin-left: 90px;
 	height: 80px;
 	line-height: 80px;
 	padding: 0 25px;
-}
-
-.logo{
-	width: 185px;
-	height: 80px;
-	vertical-align: center;
-	align-content: right;
-	display: inline-block;
-	background-image: url("../img/logo.png");
-	background-repeat: no-repeat;
+	color: lightslategray;
+	font-size: 13px;
 
 }
 
-.logo2{
-	display: inline-block;
-}
-
-.headerpic{
-	display: inline-block;
+nav a:hover {
+	text-decoration: underline;
 }
 
 
-.button{
-	font-size:25px;
+.logo {
+	float: right;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+
+}
+
+#IOD {
+	text-align: center;
+	font-size: 120px;
+	margin-right: 455px;
+	margin-left: 0px;
+	padding-left: 0px;
+
+}
+
+.headerpic {
+	width: 545px;
+	height: 545px;
+	float: right;
+	position: absolute;
+	top: 175px;
+	right: 125px;
+
+}
+
+
+.button {
+	padding: 8px 44px;
+	font-size: 18px;
 	font-family: 'Titillium Web', sans-serif;
+	border: solid black 2.5px;
+	background: white;
+	margin-left: 325px;
+}
+
+.button:hover{
+	background: black;
+	color: white;
+}
+
+hr {
+	border-top: 2px solid black;
+	margin-top: 100px;
+	width: 85%;
+}
+
+section {
+	margin-top: 15px;
+}
+
+p{
+	margin-bottom: 50px;
+}
+
+div{
+	display: inline-block;
+	height: 150px;
+	margin-bottom: 15px;
+	margin-top: 50px;
+	margin-left: 0px;
+	width: 28.5%;
+	font-size: 18px;
+}
+
+.push1{
+	margin-left: 8.5%;
+	font-size: 20px;
+	width: 40%;
+}
+
+.push2{
+	margin-left: 2.5%;
+	font-size: 20px;
+	width: 40%;
+}
+
+.push3{
+	margin-left: 8.5%;
+}
+
+.middle-img{
+	width:82.5%;
+	height: 225px;
+	margin-left: 8%;
+}
+
+#section2 {
+	display: inline;
+	vertical-align: bottom;
+}
+
+.contact{
+	margin-left: 120px;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+footer{
+	text-align: center;
 }
